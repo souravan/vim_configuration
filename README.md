@@ -55,7 +55,11 @@ Again just run the commands
 ## Vim is ready to use But it may get disturbed by tmux so for tmux users
 
 for bash for .bashrc and .zshrc for zsh.
+add following lines in .bashrc or .zshrc.
 
-    > echo "TERM=screen-256color" >> ~/.bashrc
+    > TERM=screen-256color
+      if [ -z "$TERM" ];then
+      TERM=xterm-256color
+      fi
 
 ## Most Important If you encounter a error tell me
