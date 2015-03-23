@@ -1,14 +1,14 @@
-*vim_configuration
+* vim_configuration
 
 
-*How to install it?
+* How to install it?
 
-**Run this command
+** Run this command
 
     > git clone https://github.com/aayushojha/vim_configuration.git vim_conf && cd vim_conf 
 
 
-**Compile vim from source to get latest vim so that it do not mess up with plugins
+** Compile vim from source to get latest vim so that it do not mess up with plugins
 
 For debian like OS No need to panic. Just run
 
@@ -16,15 +16,15 @@ For debian like OS No need to panic. Just run
 
 If you use arch or gentoo probably this will be a simple task for you.Sorry I don't have a script for you.
 
-**Check if vim is updated
+** Check if vim is updated
 
     > vim --version
 
 check if python and lua have +.Also check vim version is 7.4.
 
-**Backup your old configuration of vim.(if you do not know what I mean probably you don't have to do anything.
+** Backup your old configuration of vim.(if you do not know what I mean probably you don't have to do anything.
 
-**Remove .vim and .vimrc
+** Remove .vim and .vimrc
 
     > rm -rf ~/.vim
     > rm ~/.vimrc
@@ -57,4 +57,4 @@ for bash for .bashrc and .zshrc for zsh.
     
     > echo "TERM=screen-256color" >> ~/.bashrc
 
-**Most Important If you encounter a error tell me
+** Most Important If you encounter a error tell me
