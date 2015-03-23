@@ -19,7 +19,7 @@ If you use arch or gentoo probably this will be a simple task for you.Sorry I do
 
     > vim --version
 
-check if python and lua have +.Also check vim version is 7.4.
+check if python and lua have +.Also check vim version is 7.4.(EDIT: Lua is not important as observed on Amit Kumar's PC)
 
 ### Backup your old configuration of vim.(if you do not know what I mean probably you don't have to do anything.
 
