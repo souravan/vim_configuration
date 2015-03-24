@@ -11,7 +11,7 @@
 
 For debian like OS No need to panic. Just run
 
-    > sh compile_vim_from_source.sh
+    > sh compile_vim_from_source_2.sh
 
 If you use arch or gentoo probably this will be a simple task for you.Sorry I don't have a script for you.
 
