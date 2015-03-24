@@ -11,7 +11,7 @@
 
 For debian like OS No need to panic. Just run
 
-    > sh compile_vim_from_source_2.sh
+    > sh compile_vim_from_source.sh
 
 If you use arch or gentoo probably this will be a simple task for you.Sorry I don't have a script for you.
 
@@ -37,7 +37,8 @@ Just run
 Then open terminal preferences and set font to source code pro for powerline
 
 ### Now copy my vimrc and vundles.vim
-
+    
+    > mkdir ~/.vim
     > cp vimrc ~/.vimrc
     > cp vundles.vim ~/.vim/vundles.vim
 
@@ -51,6 +52,8 @@ Again just run the commands
 ### Install all plugins
 
     > vim +PluginInstall +qall
+
+Press enter when get badwolf not found.
 
 ## Vim is ready to use But it may get disturbed by tmux so for tmux users
 
