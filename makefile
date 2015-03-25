@@ -6,9 +6,10 @@ all:
 	rm ~/.vimrc
 	sh powerline_fonts.sh
 	cp vimrc ~/.vimrc
+	mkdir ~/.vimrc
 	cp vundles.vim ~/.vim/vundles.vim
 	cd ~
-	mkdir .vim
+	mkdir .vim/bundle
 	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	vim +PluginInstall +qall
 	echo "TERM=screen-256color" >> ~/.bashrc
