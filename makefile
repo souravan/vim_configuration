@@ -12,4 +12,3 @@ all:
 	mkdir .vim/bundle
 	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	vim +PluginInstall +qall
-	echo "TERM=screen-256color" >> ~/.bashrc
